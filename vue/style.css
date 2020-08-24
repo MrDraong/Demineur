@@ -1,0 +1,26 @@
+
+.grille {
+	display : grid;
+	width:800px;
+	height:700px;
+	justify-content:center;
+	grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+	grid-template-rows: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+}
+
+.cellule{
+  border : 1px solid;
+  border-color: black;
+  width: 100%;
+  height: 100%;
+  background-color: #ffdd82;
+}
+
+.decouvert{
+  border : 1px solid;
+  border-color: black;
+  width: 100%;
+  height: 100%;
+  background-color: #ffddb5;
+  text-align: center;
+}
